@@ -1,0 +1,88 @@
+/* App.css */
+.app-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3b5998;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .navbar .logo h1 {
+    margin: 0;
+  }
+  
+  .navbar .nav-buttons {
+    display: flex;
+  }
+  
+  .navbar .nav-button {
+    background-color: #3b5998;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 16px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .navbar .nav-button:hover {
+    background-color: #5b7db1;
+  }
+  
+  .main-content {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 50%;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .profile-icon {
+    margin-top: 20px;
+  }
+  
+  .ai-image img {
+    margin-top: 20px;
+    border-radius: 15px;
+  }
+  
+  .tagline {
+    margin-top: 20px;
+  }
+  
+  .get-started .get-started-button {
+    padding: 10px 20px;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+  
+  .get-started .get-started-button:hover {
+    background-color: #5b7db1;
+  }
+  
+  footer {
+    margin-top: auto;
+    background-color: #3b5998;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
